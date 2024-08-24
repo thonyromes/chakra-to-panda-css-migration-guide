@@ -1,5 +1,7 @@
-import { Link, Stack } from "@chakra-ui/react";
-import NextLink from "next/link";
+"use client";
+
+import { Link } from "@chakra-ui/next-js";
+import { Stack } from "@chakra-ui/react";
 
 const Header = () => {
   return (
@@ -11,15 +13,9 @@ const Header = () => {
         alignItems="center"
         py="32"
       >
-        <Link as={NextLink} href="/">
-          Home
-        </Link>
-        <Link as={NextLink} href="/form">
-          Form
-        </Link>
-        <Link as={NextLink} href="/table">
-          Table
-        </Link>
+        <Link href="/">Home</Link>
+        <Link href="/form">Form</Link>
+        <Link href="/table">Table</Link>
       </Stack>
     </header>
   );
