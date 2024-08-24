@@ -13,9 +13,30 @@ const Header = () => {
         alignItems="center"
         py="32"
       >
-        <Link href="/">Home</Link>
-        <Link href="/form">Form</Link>
-        <Link href="/table">Table</Link>
+        <Link
+          _hover={{
+            textDecoration: "underline",
+          }}
+          href="/"
+        >
+          Home
+        </Link>
+        <Link
+          _hover={{
+            textDecoration: "underline",
+          }}
+          href="/form"
+        >
+          Form
+        </Link>
+        <Link
+          _hover={{
+            textDecoration: "underline",
+          }}
+          href="/table"
+        >
+          Table
+        </Link>
       </Stack>
     </header>
   );
