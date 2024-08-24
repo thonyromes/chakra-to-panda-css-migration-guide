@@ -7,12 +7,13 @@
     "baseUrl": ".",
     "paths": {
       "@rotate/ui": ["packages/ui/src"],
-      "@rotate/web/*": ["apps/web/src/*"]
+      "@rotate/web/*": ["apps/web/src/*"],
+      "@styled-system/*": ["styled-system/*"]
     },
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true
   },
-  "include": ["packages", "apps"]
+  "include": ["packages", "apps", "styled-system"]
 }

@@ -2,6 +2,7 @@ import Header from "@rotate/web/components/Header";
 import TopLoader from "@rotate/web/components/TopLoader";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import "./globals.css";
 import { Providers } from "./providers";
 
 const inter = Inter({ subsets: ["latin"] });
