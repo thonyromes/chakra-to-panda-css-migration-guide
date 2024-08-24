@@ -1,9 +1,10 @@
 {
-  "name": "web",
+  "name": "@rotate/web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "prepare": "panda codegen",
+    "dev": "rm -rf .next && next dev",
     "build": "next build",
     "start": "next start",
     "next:lint": "next lint",
@@ -23,6 +24,7 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^14.2.6",
+    "@pandacss/dev": "^0.45.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

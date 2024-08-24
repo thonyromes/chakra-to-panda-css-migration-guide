@@ -4,21 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "panda codegen",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "panda:watch": "pnpm panda css watch",
-    "panda:build": "pnpm panda css build",
-    "web:dev": "pnpm panda:watch && pnpm -r --filter web run dev",
-    "web:build": "pnpm panda:build && pnpm -r --filter web run build",
-    "web:start": "pnpm -r --filter web run start",
+    "web:dev": "pnpm -r --filter @rotate/web run dev",
+    "web:build": "pnpm -r --filter @rotate/web run build",
+    "web:start": "pnpm -r --filter @rotate/web run start",
     "lint": "pnpm -r run lint",
     "format": "pnpm -r run format"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@9.8.0+sha512.8e4c3550fb500e808dbc30bb0ce4dd1eb614e30b1c55245f211591ec2cdf9c611cabd34e1364b42f564bd54b3945ed0f49d61d1bbf2ec9bd74b866fcdc723276",
-  "devDependencies": {
-    "@pandacss/dev": "^0.45.1"
-  }
+  "packageManager": "pnpm@9.8.0+sha512.8e4c3550fb500e808dbc30bb0ce4dd1eb614e30b1c55245f211591ec2cdf9c611cabd34e1364b42f564bd54b3945ed0f49d61d1bbf2ec9bd74b866fcdc723276"
 }

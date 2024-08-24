@@ -6,14 +6,15 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@rotate/ui": ["packages/ui/src"],
       "@rotate/web/*": ["apps/web/src/*"],
-      "@styled-system/*": ["styled-system/*"]
+      "@styled-system/*": ["packages/ui/styled-system/*"],
+      "@rotate/ui": ["packages/ui/src"],
+      "@rotate/ui/pandacss": ["packages/ui/src/pandacss"]
     },
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true
   },
-  "include": ["packages", "apps", "styled-system"]
+  "include": ["packages", "apps"]
 }
