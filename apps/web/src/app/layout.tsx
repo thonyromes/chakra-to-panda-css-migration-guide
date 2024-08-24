@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import TopLoader from "../components/TopLoader";
 import "./globals.css";
 import { Providers } from "./providers";
 
@@ -18,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <TopLoader />
         <Providers>{children}</Providers>
       </body>
     </html>
