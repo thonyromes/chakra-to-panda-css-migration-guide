@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "web:dev": "cd apps/web && pnpm dev"
+    "web:dev": "cd apps/web && pnpm dev",
+    "lint": "pnpm -r run lint",
+    "format": "pnpm -r run format"
   },
   "keywords": [],
   "author": "",
