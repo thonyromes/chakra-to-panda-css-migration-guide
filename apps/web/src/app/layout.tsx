@@ -1,6 +1,7 @@
+import Header from "@rotate/web/components/Header";
+import TopLoader from "@rotate/web/components/TopLoader";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import TopLoader from "../components/TopLoader";
 import "./globals.css";
 import { Providers } from "./providers";
 
@@ -20,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <TopLoader />
+        <Header />
         <Providers>{children}</Providers>
       </body>
     </html>
