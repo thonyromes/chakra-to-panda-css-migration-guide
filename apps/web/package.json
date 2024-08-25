@@ -3,13 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "prepare": "pnpm codegen --clean",
     "dev": "rm -rf .next && next dev",
     "build": "next build",
     "start": "next start",
     "next:lint": "next lint",
     "format": "biome format --write .",
     "lint": "biome check --write .",
-    "codegen": "panda codegen --clean",
+    "codegen": "panda codegen",
     "panda:build": "panda build"
   },
   "dependencies": {

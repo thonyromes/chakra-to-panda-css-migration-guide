@@ -6,14 +6,18 @@ export const Button = ({ children, ...props }: ButtonProps) => {
   return (
     <button
       className={css({
-        rounded: "3",
-        bg: "gray.400",
-        fontWeight: "bold",
+        rounded: "md",
+        color: "gray.800",
+        bg: "gray.100",
+        fontWeight: "semibold",
+        fontSize: "md",
+        height: "10",
         px: "4",
         _hover: {
-          bg: "gray.500",
+          bg: "gray.200",
         },
       })}
+      type="button"
       {...props}
     >
       {children}
