@@ -1,4 +1,4 @@
-import { css } from "../styled-system/css";
+import { css } from "@rotate/panda-preset/styled-system/css";
 
 export type ButtonProps = JSX.IntrinsicElements["button"];
 
@@ -8,7 +8,7 @@ export const Button = ({ children, ...props }: ButtonProps) => {
       className={css({
         rounded: "sm",
         bg: "cyan.700",
-        fontWeight: "bold",
+        fontWeight: "semibold",
         px: "3",
       })}
       {...props}
