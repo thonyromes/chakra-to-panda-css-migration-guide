@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "codegen": "panda codegen --clean",
-    "build": "tsup src/index.ts --dts --format=esm,cjs --clean --dts --external @pandacss/dev --external styled-system",
+    "build": "tsup src/index.ts --dts --format=esm,cjs --clean --dts --external @pandacss/dev --external @rotate/panda-preset",
     "dev": "pnpm build --watch"
   },
   "keywords": [],
