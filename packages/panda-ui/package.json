@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "prepare": "pnpm codegen --clean",
+    "prepare": "pnpm build && pnpm codegen --clean && pnpm panda:build && pnpm ship && pnpm build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "codegen": "panda codegen",
     "panda:build": "panda build",
