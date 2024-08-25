@@ -1,4 +1,4 @@
-import { css } from "@styled-system/css";
+import { css } from "../styled-system/css";
 
 export type ButtonProps = JSX.IntrinsicElements["button"];
 
@@ -6,8 +6,8 @@ export const Button = ({ children, ...props }: ButtonProps) => {
   return (
     <button
       className={css({
-        rounded: "lg",
-        bg: "blackAlpha.700",
+        rounded: "sm",
+        bg: "cyan.700",
         fontWeight: "bold",
         px: "3",
       })}

@@ -2,18 +2,14 @@
   "name": "@rotate/ui",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/preset.js",
+  "main": "dist/index.js",
   "files": [
     "src"
   ],
   "scripts": {
-    "prepare": "panda codegen",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "panda:watch": "pnpm panda css watch",
-    "panda:build": "pnpm panda css build",
     "format": "biome format --write .",
-    "lint": "biome check --write .",
-    "build": "tsup"
+    "lint": "biome check --write ."
   },
   "keywords": [],
   "author": "",
@@ -27,11 +23,9 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@pandacss/dev": "^0.45.1",
     "@types/react": "^18.3.4",
     "@types/react-dom": "^18.3.0",
     "biome": "^0.3.3",
-    "tsup": "^8.2.4",
     "typescript": "^5.5.4"
   }
 }

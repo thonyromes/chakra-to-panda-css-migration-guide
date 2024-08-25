@@ -1,0 +1,30 @@
+{
+  "name": "@rotate/panda-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "codegen": "panda codegen --clean",
+    "build": "tsup src/index.ts --dts --format=esm,cjs --clean --dts --external @pandacss/dev --external styled-system",
+    "dev": "pnpm build --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pandacss/dev": "^0.45.1",
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "biome": "^0.3.3",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@rotate/panda-preset": "workspace:^",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

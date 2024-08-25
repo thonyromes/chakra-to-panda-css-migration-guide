@@ -7,9 +7,7 @@
     "baseUrl": ".",
     "paths": {
       "@rotate/web/*": ["apps/web/src/*"],
-      "@styled-system/*": ["packages/ui/styled-system/*"],
-      "@rotate/ui": ["packages/ui/src"],
-      "@rotate/ui/pandacss": ["packages/ui/src/pandacss"]
+      "@rotate/ui": ["packages/ui/src"]
     },
     "esModuleInterop": true,
     "skipLibCheck": true,

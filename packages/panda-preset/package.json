@@ -1,0 +1,22 @@
+{
+  "name": "@rotate/panda-preset",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "codegen": "panda codegen --clean",
+    "build": "tsup src/index.ts --dts --format=esm,cjs --clean --dts --external @pandacss/dev",
+    "dev": "pnpm build --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pandacss/dev": "^0.45.1",
+    "biome": "^0.3.3",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}

@@ -1,7 +1,7 @@
 import { definePreset } from "@pandacss/dev";
 
 export default definePreset({
-  name: "rotate",
+  name: "@rotate/preset",
   theme: {
     extend: {
       tokens: {

@@ -1,7 +1,8 @@
 import { Heading, Stack } from "@chakra-ui/react";
 import { Button } from "@rotate/ui";
-import { Button as PandaButton } from "@rotate/ui/pandacss";
-import { css } from "@styled-system/css";
+
+import { css } from "@rotate/panda-preset/styled-system/css";
+import { Button as PandaButton } from "@rotate/panda-ui";
 
 export default function Home() {
   return (
@@ -12,7 +13,13 @@ export default function Home() {
       <Stack direction="row" justifyContent="center" gap={12}>
         <Button>Chakra Button</Button>
         <PandaButton>Panda CSS Button</PandaButton>
-        <div className={css({ bg: "blackAlpha.400", rounded: "lg" })}>
+        <div
+          className={css({
+            bg: "cyan.700",
+            rounded: "lg",
+            fontWeight: "bold",
+          })}
+        >
           Hello world
         </div>
       </Stack>

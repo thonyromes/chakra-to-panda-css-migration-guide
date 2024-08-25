@@ -3,19 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prepare": "panda codegen",
     "dev": "rm -rf .next && next dev",
     "build": "next build",
     "start": "next start",
     "next:lint": "next lint",
     "format": "biome format --write .",
-    "lint": "biome check --write ."
+    "lint": "biome check --write .",
+    "codegen": "panda codegen --clean",
+    "panda:build": "panda build"
   },
   "dependencies": {
     "@chakra-ui/next-js": "^2.2.0",
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
+    "@rotate/panda-preset": "workspace:^",
+    "@rotate/panda-ui": "workspace:^",
     "framer-motion": "^11.3.30",
     "next": "14.2.6",
     "nextjs-toploader": "^1.6.12",
