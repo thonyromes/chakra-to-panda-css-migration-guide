@@ -16,8 +16,8 @@ export default function Home() {
         <div
           className={css({
             bg: "cyan.700",
-            rounded: "lg",
-            fontWeight: "bold",
+            rounded: "sm",
+            px: "8",
           })}
         >
           Hello world
