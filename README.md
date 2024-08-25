@@ -73,6 +73,8 @@ This monorepo setup includes a Next.js 14 project, a separate UI library, and us
     │
     ├── packages/
     │   └── ui/                # UI library with Chakra UI
+    │   └── panda-preset/      # Panda CSS preset config
+    │   └── panda-ui/          # UI library with Panda CSS
     │
     ├── pnpm-workspace.yaml    # pnpm workspace configuration
     ├── tsconfig.json          # Root TypeScript configuration
