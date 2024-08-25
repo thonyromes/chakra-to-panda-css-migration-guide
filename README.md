@@ -7,10 +7,10 @@ This monorepo setup includes a Next.js 14 project, a separate UI library, and us
 - **Root (`rotate-chakra-migration/`)**  
   Contains shared configuration files, such as `pnpm-workspace.yaml` and the root `tsconfig.json`.
 
-- **Apps (`rotate-chakra-migration/apps/web`)**  
+- **Apps (`rotate-chakra-migration/apps/`)**  
   Contains the Next.js 14 project with the app router.
 
-- **Packages (`rotate-chakra-migration/packages/ui`)**  
+- **Packages (`rotate-chakra-migration/packages/`)**  
   Contains the UI library, which will be shared across multiple apps.
 
 ## 🚀 Quick Start
@@ -41,7 +41,7 @@ This monorepo setup includes a Next.js 14 project, a separate UI library, and us
 8. **Integrate Chakra UI for Styling**  
    Add Chakra UI to the UI library and the Next.js app to handle consistent styling across the components and pages.
 
-9. **Define Initial Test Routes**  
+9. **Define Initial Routes**  
    Set up three main routes in the Next.js app: _Dashboard_, _Table_, and _Form_. These will be dummy test routes.
 
 ## 🧩 Key Features
@@ -73,8 +73,6 @@ This monorepo setup includes a Next.js 14 project, a separate UI library, and us
     │
     ├── packages/
     │   └── ui/                # UI library with Chakra UI
-    │   └── panda-preset/      # Panda CSS preset config
-    │   └── panda-ui/          # UI library with Panda CSS
     │
     ├── pnpm-workspace.yaml    # pnpm workspace configuration
     ├── tsconfig.json          # Root TypeScript configuration
