@@ -196,3 +196,19 @@ Once all components have been migrated, we can begin the process of fully removi
 ### Finalize Documentation
 
 Update all documentation to reflect the full transition to Panda CSS. Ensure that all examples, component libraries, and guides reference Panda CSS exclusively.
+
+# Setup steps for this repository
+
+### Clone Repository
+
+`git clone git@github.com:thonyromes/chakra-to-panda-css-migration-guide.git`
+
+### Install Dependencies
+
+`cd chakra-to-panda-css-migration-guide && pnpm install`
+
+### Start the Dev Server
+
+`pnpm web:dev`
+
+`cd packages/panda-ui && pnpm dev`
