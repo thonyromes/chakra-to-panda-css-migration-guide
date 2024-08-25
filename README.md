@@ -69,10 +69,12 @@ This monorepo setup includes a Next.js 14 project, a separate UI library, and us
     rotate-chakra-migration/
     │
     ├── apps/
-    │   └── web/               # Next.js 14 application
+    │   └── web/               # Next.js 14 application with app router
     │
     ├── packages/
     │   └── ui/                # UI library with Chakra UI
+    │   └── panda-ui/          # UI library with Panda CSS
+    │   └── panda-preset/      # Panda CSS preset config (made to match chakra design system)
     │
     ├── pnpm-workspace.yaml    # pnpm workspace configuration
     ├── tsconfig.json          # Root TypeScript configuration
