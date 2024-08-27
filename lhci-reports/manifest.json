@@ -1,12 +1,24 @@
 [
   {
-    "url": "http://localhost:3000/",
+    "url": "http://localhost:3000/chakra-components",
     "isRepresentativeRun": true,
-    "htmlPath": "/Users/thony/Workspace/playground/chakra-to-panda-css-migration-guide/lhci-reports/localhost-_-2024_08_27_17_01_09.report.html",
-    "jsonPath": "/Users/thony/Workspace/playground/chakra-to-panda-css-migration-guide/lhci-reports/localhost-_-2024_08_27_17_01_09.report.json",
+    "htmlPath": "/Users/thony/Workspace/playground/chakra-to-panda-css-migration-guide/lhci-reports/localhost-_chakra_components-2024_08_27_17_43_59.report.html",
+    "jsonPath": "/Users/thony/Workspace/playground/chakra-to-panda-css-migration-guide/lhci-reports/localhost-_chakra_components-2024_08_27_17_43_59.report.json",
     "summary": {
-      "performance": 0.8,
-      "accessibility": 0.95,
+      "performance": 0.64,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 1
+    }
+  },
+  {
+    "url": "http://localhost:3000/panda-components",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/thony/Workspace/playground/chakra-to-panda-css-migration-guide/lhci-reports/localhost-_panda_components-2024_08_27_17_44_23.report.html",
+    "jsonPath": "/Users/thony/Workspace/playground/chakra-to-panda-css-migration-guide/lhci-reports/localhost-_panda_components-2024_08_27_17_44_23.report.json",
+    "summary": {
+      "performance": 0.98,
+      "accessibility": 1,
       "best-practices": 1,
       "seo": 1
     }

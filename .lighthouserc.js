@@ -3,7 +3,10 @@ module.exports = {
     collect: {
       startServerCommand: "pnpm run web:dev",
       startServerReadyPattern: "ready on",
-      url: ["http://localhost:3000"],
+      url: [
+        "http://localhost:3000/chakra-components",
+        "http://localhost:3000/panda-components",
+      ],
       numberOfRuns: 1,
       settings: {
         preset: "desktop",
