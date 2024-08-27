@@ -8,7 +8,7 @@ export const Button = ({ children, ...props }: ButtonProps) => {
       className={css({
         rounded: "md",
         color: "gray.800",
-        bg: "cyan.700",
+        bg: "gray.100",
         fontWeight: "semibold",
         fontSize: "md",
         height: "10",

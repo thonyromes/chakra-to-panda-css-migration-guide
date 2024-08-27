@@ -1,0 +1,14 @@
+[
+  {
+    "url": "http://localhost:3000/",
+    "isRepresentativeRun": true,
+    "htmlPath": "/Users/thony/Workspace/playground/chakra-to-panda-css-migration-guide/lhci-reports/localhost-_-2024_08_27_17_01_09.report.html",
+    "jsonPath": "/Users/thony/Workspace/playground/chakra-to-panda-css-migration-guide/lhci-reports/localhost-_-2024_08_27_17_01_09.report.json",
+    "summary": {
+      "performance": 0.8,
+      "accessibility": 0.95,
+      "best-practices": 1,
+      "seo": 1
+    }
+  }
+]
